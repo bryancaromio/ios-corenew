@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name = 'ios-core'
   s.ios.deployment_target = '13.0'
   s.osx.deployment_target = '13.0'
-  s.version = '2.1.230'
+  s.version = '2.1.235'
   s.authors = 'Carrefour'
   s.license = 'Proprietary'
   s.homepage = 'https://www.carrefour.es/'
