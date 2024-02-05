@@ -27,7 +27,7 @@ git commit -m "config: podspec updated to $new_version [version]"
 
 # Crear un nuevo tag y hacer push
 git tag -a $new_version -m "Version $new_version"
-git push origin develop
-git push origin $new_version
+git push "$remote_name" develop
+git push "$remote_name" $new_version
 
 echo "Subida de versión completada a la versión $new_version"
